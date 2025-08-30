@@ -4,7 +4,7 @@ Este proyecto implementa un sistema de comunicación **Cliente/Servidor multihil
 Permite que múltiples clientes se conecten simultáneamente a un servidor y realicen operaciones de prueba de comunicación.
 
 ---
-
+ ```
 ## 📂 Estructura del proyecto
 
 
@@ -18,7 +18,7 @@ lab\_2/
 │── clienteEJ20.jpeg                 # Ejecución cliente 3
 │── clienteEJ21.jpeg                 # Ejecución cliente 4
 
-
+ ```
 
 ---
 
