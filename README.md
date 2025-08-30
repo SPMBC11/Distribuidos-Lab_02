@@ -42,7 +42,7 @@ Cada cliente puede enviar un número al servidor, y este le responde con el **cu
 ## 📸 Capturas de pantalla  
 
 ### 🔹 Inicio del servidor y conexión de clientes  
-![Server Started](./Imagen%20de%20WhatsApp%202025-08-29%20a%20las%2015.46.27_ee6482c6.jpg)  
+![Server Started](./WhatsApp Image 2025-08-29 at 10.26.54 PM.jpeg)  
 
 ### 🔹 Cliente enviando un número (ejemplo: 20)  
 ![Cliente 2](./Imagen%20de%20WhatsApp%202025-08-29%20a%20las%2015.46.59_ef525aa3.jpg)  
