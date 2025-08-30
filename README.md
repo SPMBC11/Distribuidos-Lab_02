@@ -1,6 +1,3 @@
-Aquí tienes un **README.md completo** para tu carpeta `lab_2` con las imágenes integradas y explicación del proyecto 👇
-
-```markdown
 # Lab 2 - Cliente/Servidor con Sockets en Java
 
 Este proyecto implementa un sistema de comunicación **Cliente/Servidor multihilo** en Java utilizando **sockets TCP**.  
@@ -10,7 +7,6 @@ Permite que múltiples clientes se conecten simultáneamente a un servidor y rea
 
 ## 📂 Estructura del proyecto
 
-```
 
 lab\_2/
 │── MultithreadedSocketServer.java   # Servidor principal (acepta múltiples clientes)
@@ -22,7 +18,7 @@ lab\_2/
 │── clienteEJ20.jpeg                 # Ejecución cliente 3
 │── clienteEJ21.jpeg                 # Ejecución cliente 4
 
-````
+
 
 ---
 
@@ -31,7 +27,7 @@ lab\_2/
 1. **Compilar todos los archivos Java**
    ```bash
    javac *.java
-````
+
 
 2. **Ejecutar el servidor**
 
@@ -83,13 +79,4 @@ lab\_2/
 
 Proyecto desarrollado como parte del **Laboratorio 2 - Programación de Sockets en Java**.
 
-```
 
----
-
-¿Quieres que además lo organice como un **informe académico** (con objetivos, metodología, resultados y conclusiones) o lo dejamos en este estilo más **tipo GitHub**?
-```
-
-
-## 👨‍💻 Autor  
-Proyecto desarrollado como práctica de **Redes en Java**.  
