@@ -1,71 +1,95 @@
-# 🖥️ Cliente-Servidor con Sockets Multihilo en Java  
+Aquí tienes un **README.md completo** para tu carpeta `lab_2` con las imágenes integradas y explicación del proyecto 👇
 
-Este proyecto implementa un sistema **Cliente-Servidor multihilo** en Java utilizando **sockets TCP**.  
-Cada cliente puede enviar un número al servidor, y este le responde con el **cuadrado del número ingresado**.  
+```markdown
+# Lab 2 - Cliente/Servidor con Sockets en Java
 
-## 🚀 Características  
-- Soporte para múltiples clientes en paralelo (multithreading).  
-- Comunicación en tiempo real entre clientes y servidor.  
-- Cálculo del cuadrado de un número enviado desde el cliente.  
-- Mensajes personalizados indicando qué cliente envió la información.  
+Este proyecto implementa un sistema de comunicación **Cliente/Servidor multihilo** en Java utilizando **sockets TCP**.  
+Permite que múltiples clientes se conecten simultáneamente a un servidor y realicen operaciones de prueba de comunicación.
 
 ---
 
-## 📂 Archivos principales  
-- `MultithreadedSocketServer.java` → Código del servidor principal.  
-- `ServerClientThread.java` → Manejo de cada cliente en un hilo separado.  
-- `TCPClient.java` → Código del cliente que envía números al servidor.  
+## 📂 Estructura del proyecto
+
+```
+
+lab\_2/
+│── MultithreadedSocketServer.java   # Servidor principal (acepta múltiples clientes)
+│── ServerClientThread.java          # Hilo que maneja cada cliente conectado
+│── TCPClient.java                   # Cliente TCP para conectarse al servidor
+│── inicioo.jpeg                     # Captura del inicio del servidor
+│── clienteEJ12.jpeg                 # Ejecución cliente 1
+│── clienteEJ15.jpeg                 # Ejecución cliente 2
+│── clienteEJ20.jpeg                 # Ejecución cliente 3
+│── clienteEJ21.jpeg                 # Ejecución cliente 4
+
+````
 
 ---
 
-## ⚡ Ejecución  
+## ⚙️ Compilación y ejecución
 
-1. Compilar los archivos Java:  
+1. **Compilar todos los archivos Java**
    ```bash
-   javac MultithreadedSocketServer.java ServerClientThread.java TCPClient.java
-   ```
+   javac *.java
+````
 
-2. Iniciar el servidor:  
+2. **Ejecutar el servidor**
+
    ```bash
    java MultithreadedSocketServer
    ```
 
-3. Ejecutar uno o varios clientes en diferentes terminales:  
+3. **Ejecutar un cliente** en otra terminal (pueden abrirse varios a la vez)
+
    ```bash
    java TCPClient
    ```
 
-4. Ingresar números y observar la comunicación con el servidor.  
+---
+
+## 🖼️ Demostración
+
+### Inicio del servidor
+
+![Servidor](inicioo.jpeg)
+
+### Ejemplo de ejecución cliente 1
+
+![Cliente 1](clienteEJ12.jpeg)
+
+### Ejemplo de ejecución cliente 2
+
+![Cliente 2](clienteEJ15.jpeg)
+
+### Ejemplo de ejecución cliente 3
+
+![Cliente 3](clienteEJ20.jpeg)
+
+### Ejemplo de ejecución cliente 4
+
+![Cliente 4](clienteEJ21.jpeg)
 
 ---
 
-## 📸 Capturas de pantalla  
+## 📌 Notas
 
-### 🔹 Inicio del servidor y conexión de clientes  
-![Server Started](./WhatsApp Image 2025-08-29 at 10.26.54 PM.jpeg)  
-
-### 🔹 Cliente enviando un número (ejemplo: 20)  
-![Cliente 2](./Imagen%20de%20WhatsApp%202025-08-29%20a%20las%2015.46.59_ef525aa3.jpg)  
-
-### 🔹 Cliente enviando un número (ejemplo: 12)  
-![Cliente 3](./Imagen%20de%20WhatsApp%202025-08-29%20a%20las%2015.47.28_791d5fe1.jpg)  
-
-### 🔹 Cliente enviando un número (ejemplo: 15)  
-![Cliente 1](./Imagen%20de%20WhatsApp%202025-08-29%20a%20las%2015.47.46_b4e548e4.jpg)  
-
-### 🔹 Consola del servidor mostrando mensajes de los clientes  
-![Servidor Consola](./Imagen%20de%20WhatsApp%202025-08-29%20a%20las%2015.47.59_5c0c107e.jpg)  
+* El servidor está diseñado para aceptar múltiples clientes mediante **multithreading**.
+* Cada cliente se atiende en un hilo independiente (`ServerClientThread`).
+* Se puede extender para soportar operaciones adicionales además del eco o pruebas actuales.
 
 ---
 
-## 📑 Informe breve  
+## 👨‍💻 Autor
 
-- El servidor inicia y queda a la espera de conexiones.  
-- Los clientes se conectan correctamente y pueden enviar números.  
-- El servidor procesa cada número en **hilos independientes** y devuelve el resultado.  
-- Las pruebas muestran que con varios clientes simultáneos el sistema responde de manera estable y eficiente.  
+Proyecto desarrollado como parte del **Laboratorio 2 - Programación de Sockets en Java**.
+
+```
 
 ---
+
+¿Quieres que además lo organice como un **informe académico** (con objetivos, metodología, resultados y conclusiones) o lo dejamos en este estilo más **tipo GitHub**?
+```
+
 
 ## 👨‍💻 Autor  
 Proyecto desarrollado como práctica de **Redes en Java**.  
