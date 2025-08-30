@@ -4,10 +4,10 @@ Este proyecto implementa un sistema de comunicación **Cliente/Servidor multihil
 Permite que múltiples clientes se conecten simultáneamente a un servidor y realicen operaciones de prueba de comunicación.
 
 ---
- ```
+
 ## 📂 Estructura del proyecto
 
-
+ ```
 lab\_2/
 │── MultithreadedSocketServer.java   # Servidor principal (acepta múltiples clientes)
 │── ServerClientThread.java          # Hilo que maneja cada cliente conectado
